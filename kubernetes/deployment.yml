@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: deleiverydashboard
-          image: username/deleiverydashboard:latest
+          image: test29cr.azurecr.io/acrdashboard:latest
           ports:
             - containerPort: 8080
           readinessProbe:
